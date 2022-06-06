@@ -1,0 +1,128 @@
+.navbar.center .navbar-inner {
+    text-align: center;
+}
+
+.navbar.center .navbar-inner .nav {
+    display:inline-block;
+    float: none;
+    vertical-align: top;
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: #00ff00;
+    border-width: 4px;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url(
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 255, 0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-item>a:hover {
+    color: green;
+}
+
+.navbar-nav>.active>a {
+    /* background-color: #C0C0C0; */
+    color: #00ff00;
+}
+
+.navbar-brand:hover {
+    color: #00ff00;
+}
+
+.navbar-brand {
+    font-size: 50px;
+    font-weight: 500;
+    font-family: 'Joan', serif;
+    word-spacing: 0.2em;
+}
+
+.nav-link {
+    font-size: 30px;
+    font-weight: 350;
+    font-family: 'Joan', serif;
+}
+
+.navbar-toggler .navbar-toggler-icon {
+    width: 40px !important;
+    height: 40px !important;
+}
+
+.custom-home {
+    flex-direction: column !important;
+}
+
+@media (max-width: 990px) {
+
+    .nav-link {
+        font-size: 30px;
+        font-weight: 300;
+    }
+
+    .custom-row {
+        flex-direction: column !important;
+    }
+
+    .custom-home {
+        padding-top: 100px;
+    }
+    
+}
+
+@media (max-width: 479px) {
+
+    .navbar-brand {
+        font-size: 35px;
+        font-weight: 500;
+    }
+
+    .nav-link {
+        font-size: 25px;
+        font-weight: 300;
+    }
+
+    .navbar-toggler .navbar-toggler-icon {
+        width: 30px !important;
+        height: 30px !important;
+    }
+    
+}
+
+.img-thumbnail {
+    /* border: 1; */
+    background-color: #00ff00;
+    padding: 0;
+    border-color: #00ff00;
+    border-width: 4px;
+}
+
+.custom-profile {
+    margin: auto;
+}
+
+#head-home_1 {
+    /* padding-top: 50px; */
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+#head-home_2 {
+    text-align: center;
+    color: #00ff00;
+    font-size: 70px;
+}
+
+#head-home_3 {
+    text-align: center;
+    color: white;
+    padding: 50px;
+    font-size: 27px;
+    text-align: justify;
+
+}
