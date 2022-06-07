@@ -168,9 +168,34 @@
 #head-resume_3 {
     position: relative;
     text-align: center;
-    font-size: 40px;
+    font-size: 4vw;
     color: #121111;
-    -webkit-text-stroke: #00ff00;
+    -webkit-text-stroke: 0.1vw #00ff00;
+    text-transform: uppercase;
+}
+
+#head-resume_3::before {
+    content: attr(data-text);
+    position: absolute;
+    width: 0;
+    left: 0;
+    top: 0;
+    height: 100%;
+    color: #00ff00;
+    -webkit-text-stroke: 0vw #00ff00;
+    border-right: 2px solid #00ff00;
+    overflow: hidden;
+    animation: animate 6s linear infinite;
+}
+
+
+@keyframes animate {
+    0%, 10%, 100% {
+        width: 0;
+    }
+    70%, 90% {
+        width: 100%;;
+    }
 }
 
 
