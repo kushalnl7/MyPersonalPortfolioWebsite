@@ -55,6 +55,10 @@
 
 .custom-home {
     flex-direction: column !important;
+    position: relative;
+    animation-name: intro;
+    animation-duration: 2s;  
+    animation-fill-mode: forwards;
 }
 
 @media (max-width: 990px) {
@@ -99,6 +103,10 @@
     padding: 0;
     border-color: #00ff00;
     border-width: 4px;
+    position: relative;
+    animation-name: image;
+    animation-duration: 2s;  
+    animation-fill-mode: forwards;
 }
 
 .custom-profile {
@@ -110,12 +118,14 @@
     text-align: center;
     color: white;
     font-size: 50px;
+    font-family: 'Joan', serif;
 }
 
 #head-home_2 {
     text-align: center;
     color: #00ff00;
     font-size: 70px;
+    font-family: 'Joan', serif;
 }
 
 #head-home_3 {
@@ -124,5 +134,63 @@
     padding: 50px;
     font-size: 27px;
     text-align: justify;
-
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
 }
+
+.custom-resume{
+    padding-top: 50px;
+    position: relative;
+    animation-name: resume;
+    animation-duration: 2s;  
+    animation-fill-mode: forwards;
+}
+
+#head-resume_1 {
+    text-align: center;
+    color: white;
+    padding: 25px;
+    font-size: 35px;
+    /* text-align: justify; */
+    font-style: italic;
+    font-family: 'Gentium Plus', serif;
+}
+
+#head-resume_2 {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-style: italic;
+    font-family: 'Joan', serif;
+    font-variant: small-caps;
+}
+
+#head-resume_3 {
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    color: #121111;
+    -webkit-text-stroke: #00ff00;
+}
+
+
+#link-resume {
+    text-decoration: none;
+    color: #00ff00; 
+    font-style: normal;
+}
+
+@keyframes image {
+    from {left: -1000px;}
+    to {left: 0px;}
+  }
+
+@keyframes intro {
+    from {right: -1000px;}
+    to {right: 0px;}
+  }
+
+@keyframes resume {
+    from {bottom: -500px;}
+    to {bottom: 0px;}
+  }
