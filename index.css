@@ -219,3 +219,23 @@
     from {bottom: -500px;}
     to {bottom: 0px;}
   }
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #121111; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #00ff00; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: green; 
+}
