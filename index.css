@@ -256,7 +256,7 @@
 
 #skill{
     padding: 50px;
-    padding-bottom: 0px;
+    padding-bottom: 20px;
     display: flex;
     float: center;
     /* text-align: center; */
@@ -300,13 +300,37 @@
     /* display: flex;
     float: center; */
     text-align: center;
+    position: relative;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    /* animation-name: logo_1;
+    animation-duration: 4s;  
+    animation-fill-mode: forwards; */
 }
+
+@keyframes logo_1 {
+    from {left: -1000px;}
+    to {left: 0px;}
+  }
 
 #logo_2{
     /* display: flex;
     float: center; */
     text-align: center;
+    position: relative;
+    padding-bottom: 70px;
+    padding-top: 20px;
+    /* animation-name: logo_2;
+    animation-duration: 4s;  
+    animation-fill-mode: forwards; */
 }
+
+
+
+@keyframes logo_2 {
+    from {right: -1000px;}
+    to {right: 0px;}
+  }
 
 #skill-logo{
     height: 90px;
