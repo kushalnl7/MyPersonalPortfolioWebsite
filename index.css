@@ -617,3 +617,25 @@
 #domain-list{
     margin: 5px;
 }
+
+.custom-project{
+    padding: 30px 100px 30px 100px;
+}
+
+@media (max-width: 1300px) {
+    .custom-project{
+        padding: 30px 80px 30px 80px;
+    }
+}
+
+@media (max-width: 990px) {
+    .custom-project{
+        padding: 30px 50px 30px 50px;
+    }
+}
+
+@media (max-width: 763px) {
+    .custom-project{
+        padding: 30px 10px 30px 10px;
+    }
+}
