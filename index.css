@@ -256,6 +256,7 @@
 
 #skill{
     padding: 50px;
+    padding-bottom: 0px;
     display: flex;
     float: center;
     /* text-align: center; */
@@ -286,7 +287,84 @@
     font-family: 'Joan', serif;
 }
 
-@media (max-width: 479px) {
+#head-skill_1:hover{
+    color: #00ff00;
+}
+
+#skill-img:hover{
+    color: #00ff00;
+    stroke: #00ff00;
+}
+
+#logo_1{
+    /* display: flex;
+    float: center; */
+    text-align: center;
+}
+
+#logo_2{
+    /* display: flex;
+    float: center; */
+    text-align: center;
+}
+
+#skill-logo{
+    height: 90px;
+    width: 90px;
+    margin: 30px;
+}
+
+@media (max-width: 1400px) {
+    #skill-logo{
+        height: 80px;
+        width: 80px;
+        margin: 20px;
+        margin-bottom: 25px;
+        margin-top: 25px;
+    }
+}
+
+@media (max-width: 1200px) {
+    #skill-logo{
+        height: 70px;
+        width: 70px;
+        margin: 15px;
+        margin-bottom: 25px;
+        margin-top: 25px;
+    }
+}
+
+@media (max-width: 990px) {
+    #skill-logo{
+        height: 80px;
+        width: 80px;
+        margin: 40px;
+        margin-bottom: 25px;
+        margin-top: 25px;
+    }
+}
+
+@media (max-width: 765px) {
+    #skill-logo{
+        height: 60px;
+        width: 60px;
+        margin: 20px;
+        margin-bottom: 25px;
+        margin-top: 25px;
+    }
+}
+
+@media (max-width: 480px) {
+    #skill-logo{
+        height: 50px;
+        width: 50px;
+        margin: 15px;
+        margin-bottom: 25px;
+        margin-top: 25px;
+    }
+}
+
+@media (max-width: 439px) {
     #head-skill_1{
         padding-left: 10px;
         padding-right: 10px;
@@ -297,7 +375,26 @@
         height: 50px;
         width: 50px;
     }
+
+    #skill-logo{
+        height: 52px;
+        width: 52px;
+        margin: 12px;
+        margin-bottom: 25px;
+        margin-top: 25px;
+    }
 }
+
+@media (max-width: 382px) {
+    #skill-logo{
+        height: 40px;
+        width: 40px;
+        margin: 10px;
+        margin-bottom: 25px;
+        margin-top: 25px;
+    }
+}
+
 
 @keyframes resume {
     from {bottom: -500px;}
