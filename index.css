@@ -552,3 +552,68 @@
         transform:rotate(360deg); 
     } 
 }
+
+.custom-card{
+    background-color: #121111;
+}
+
+.custom-card-row{
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+#folder-icon{
+    position: relative;
+    height: 35px;
+    width: 35px;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: #00ff00;
+    stroke-width: 0.5;
+    stroke: #00ff00;
+}
+
+#github-icon{
+    position: relative;
+    height: 30px;
+    width: 30px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: 20px;
+    color: #ffffff;
+}
+
+#goto-icon{
+    position: relative;
+    height: 25px;
+    width: 25px;
+    margin-top: 20px;
+    margin-right: 20px;
+    color: #ffffff;
+}
+
+#head-card{
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#body-card{
+    margin-top: 30px;
+    color: #8A8A8A;
+}
+
+.project-domain{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    color: #8A8A8A;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 40px;
+}
+
+#domain-list{
+    margin: 5px;
+}
