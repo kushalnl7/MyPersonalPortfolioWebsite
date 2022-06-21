@@ -267,7 +267,31 @@
     animation-fill-mode: forwards;
 }
 
+#project{
+    padding: 50px;
+    padding-bottom: 20px;
+    display: flex;
+    float: center;
+    /* text-align: center; */
+    justify-content: center;
+    position: relative;
+    /* animation-name: resume;
+    animation-duration: 2s;  
+    animation-fill-mode: forwards; */
+}
+
 #skill-img{
+    height: 60px;
+    width: 60px;
+    color: white;
+    stroke-width: 0.6;
+    stroke: white;
+    -webkit-animation:skill 2s linear infinite;
+    -moz-animation:skill 2s linear infinite;
+    animation:skill 2s linear infinite;
+}
+
+#project-img{
     height: 60px;
     width: 60px;
     color: white;
@@ -287,13 +311,41 @@
     font-family: 'Joan', serif;
 }
 
+#head-project_1 {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    font-family: 'Joan', serif;
+}
+
 #head-skill_1:hover{
+    color: #00ff00;
+}
+
+#head-project_1:hover{
     color: #00ff00;
 }
 
 #skill-img:hover{
     color: #00ff00;
     stroke: #00ff00;
+}
+
+#head-skill_2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-family: 'Joan', serif;
+}
+
+#head-skill_2:hover{
+    color: #00ff00;
 }
 
 #logo_1{
@@ -396,7 +448,18 @@
         font-size: 50px;
     }
 
+    #head-project_1{
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 50px;
+    }
+
     #skill-img{
+        height: 50px;
+        width: 50px;
+    }
+
+    #project-img{
         height: 50px;
         width: 50px;
     }
