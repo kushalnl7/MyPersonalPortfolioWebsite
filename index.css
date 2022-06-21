@@ -1,3 +1,23 @@
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #121111; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #00ff00; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: green; 
+}
+
 .navbar.center .navbar-inner {
     text-align: center;
 }
@@ -18,8 +38,14 @@
 "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 255, 0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
+.nav-item{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 .nav-link {
     color: white;
+    
 }
 
 .nav-item>a:hover {
@@ -102,7 +128,7 @@
     background-color: #00ff00;
     padding: 0;
     border-color: #00ff00;
-    border-width: 4px;
+    border-width: 2px;
     position: relative;
     animation-name: image;
     animation-duration: 2s;  
@@ -155,6 +181,17 @@
     font-style: italic;
     font-family: 'Gentium Plus', serif;
 }
+
+@media (max-width: 990px) {
+    #head-resume_1{
+        padding-top: 0px;
+    }
+
+    #head-home_3{
+        padding-bottom: 0px;
+    }
+}
+
 
 #head-resume_2 {
     text-align: center;
@@ -215,27 +252,68 @@
     to {right: 0px;}
   }
 
+
+
+#skill{
+    padding: 50px;
+    display: flex;
+    float: center;
+    /* text-align: center; */
+    justify-content: center;
+    position: relative;
+    animation-name: resume;
+    animation-duration: 2s;  
+    animation-fill-mode: forwards;
+}
+
+#skill-img{
+    height: 60px;
+    width: 60px;
+    color: white;
+    stroke-width: 0.6;
+    stroke: white;
+    -webkit-animation:skill 2s linear infinite;
+    -moz-animation:skill 2s linear infinite;
+    animation:skill 2s linear infinite;
+}
+
+#head-skill_1 {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    font-family: 'Joan', serif;
+}
+
+@media (max-width: 479px) {
+    #head-skill_1{
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 50px;
+    }
+
+    #skill-img{
+        height: 50px;
+        width: 50px;
+    }
+}
+
 @keyframes resume {
     from {bottom: -500px;}
     to {bottom: 0px;}
   }
 
-/* width */
-::-webkit-scrollbar {
-    width: 5px;
-}
 
-/* Track */
-::-webkit-scrollbar-track {
-    background: #121111; 
+@-moz-keyframes skill { 
+    100% { -moz-transform: rotate(360deg); } 
 }
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-    background: #00ff00; 
+@-webkit-keyframes skill { 
+    100% { -webkit-transform: rotate(360deg); } 
 }
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-    background: green; 
+@keyframes skill { 
+    100% { 
+        -webkit-transform: rotate(360deg); 
+        transform:rotate(360deg); 
+    } 
 }
