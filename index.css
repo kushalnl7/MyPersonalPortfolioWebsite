@@ -473,6 +473,10 @@
     #logo_1{        
         padding-bottom: 0px;
     }
+
+    #logo_2{
+        padding-top: 0px;
+    }
 }
 
 @media (max-width: 765px) {
@@ -487,6 +491,10 @@
     #logo_1{        
         padding-bottom: 0px;
     }
+
+    #logo_2{
+        padding-top: 0px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -500,6 +508,10 @@
 
     #logo_1{        
         padding-bottom: 0px;
+    }
+
+    #logo_2{
+        padding-top: 0px;
     }
 }
 
@@ -536,6 +548,10 @@
 
     #logo_1{        
         padding-bottom: 0px;
+    }
+
+    #logo_2{
+        padding-top: 0px;
     }
 }
 
