@@ -99,7 +99,7 @@
     }
 
     .custom-home {
-        padding-top: 100px;
+        padding-top: 50px;
     }
     
 }
@@ -157,7 +157,7 @@
 #head-home_3 {
     text-align: center;
     color: white;
-    padding: 50px;
+    padding: 37px 37px 10px 37px;
     font-size: 27px;
     text-align: justify;
     font-family: 'Nunito', sans-serif;
@@ -186,6 +186,10 @@
     #head-resume_1{
         padding: 15px;
         padding-top: 0px;
+    }
+
+    #head-home_3{
+        padding: 50px;
     }
 
     #head-home_3{
@@ -237,6 +241,7 @@
     height: 35px;
     width: 35px;
     margin: 15px;
+    margin-bottom: 0px;
     color: white;
     text-align: center;
 }
