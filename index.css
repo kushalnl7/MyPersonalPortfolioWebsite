@@ -184,10 +184,12 @@
 
 @media (max-width: 990px) {
     #head-resume_1{
+        padding: 15px;
         padding-top: 0px;
     }
 
     #head-home_3{
+        padding: 30px;
         padding-bottom: 0px;
     }
 }
@@ -321,6 +323,17 @@
 }
 
 @media (max-width: 533px) {
+
+    #head-home_3{
+        padding: 0px;
+        padding-bottom: 0px;
+    }
+
+    #head-resume_1{
+        padding: 0px;
+        padding-top: 0px;
+    }
+
     #head-project_1 {
         padding-left: 20px;
         padding-right: 20px;
