@@ -469,6 +469,10 @@
         margin-bottom: 25px;
         margin-top: 25px;
     }
+
+    #logo_1{        
+        padding-bottom: 0px;
+    }
 }
 
 @media (max-width: 765px) {
@@ -479,6 +483,10 @@
         margin-bottom: 25px;
         margin-top: 25px;
     }
+
+    #logo_1{        
+        padding-bottom: 0px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -488,6 +496,10 @@
         margin: 15px;
         margin-bottom: 25px;
         margin-top: 25px;
+    }
+
+    #logo_1{        
+        padding-bottom: 0px;
     }
 }
 
@@ -520,6 +532,10 @@
         margin: 12px;
         margin-bottom: 25px;
         margin-top: 25px;
+    }
+
+    #logo_1{        
+        padding-bottom: 0px;
     }
 }
 
