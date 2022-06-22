@@ -322,38 +322,7 @@
     font-family: 'Joan', serif;
 }
 
-@media (max-width: 533px) {
 
-    #head-home_3{
-        padding: 0px;
-        padding-bottom: 0px;
-    }
-
-    #head-resume_1{
-        padding: 0px;
-        padding-top: 0px;
-    }
-
-    #head-project_1 {
-        padding-left: 20px;
-        padding-right: 20px;
-        text-align: center;
-        color: white;
-        font-size: 40px;
-        font-family: 'Joan', serif;
-    }
-
-    #project-img{
-        height: 40px;
-        width: 40px;
-        color: white;
-        stroke-width: 0.6;
-        stroke: white;
-        -webkit-animation:skill 2s linear infinite;
-        -moz-animation:skill 2s linear infinite;
-        animation:skill 2s linear infinite;
-    }
-}
 
 @media (max-width: 410px) {
 
@@ -698,5 +667,55 @@
 @media (max-width: 763px) {
     .custom-project{
         padding: 30px 10px 30px 10px;
+    }
+}
+
+
+@media (max-width: 533px) {
+
+    #head-home_1 {
+        font-size: 40px;
+    }
+    
+    #head-home_2 {
+        font-size: 50px;
+    }
+
+    #head-home_3{
+        padding: 0px;
+        padding-bottom: 0px;
+        font-size: 22px;
+    }
+
+    #head-resume_1{
+        padding: 0px;
+        padding-top: 0px;
+        font-size: 25px;
+    }
+
+    #head-skill_2{
+        font-size: 30px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    #head-project_1 {
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+        color: white;
+        font-size: 40px;
+        font-family: 'Joan', serif;
+    }
+
+    #project-img{
+        height: 40px;
+        width: 40px;
+        color: white;
+        stroke-width: 0.6;
+        stroke: white;
+        -webkit-animation:skill 2s linear infinite;
+        -moz-animation:skill 2s linear infinite;
+        animation:skill 2s linear infinite;
     }
 }
