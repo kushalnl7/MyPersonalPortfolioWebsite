@@ -674,18 +674,18 @@
 @media (max-width: 533px) {
 
     #head-home_1 {
-        font-size: 30px;
+        font-size: 40px;
     }
     
     #head-home_2 {
-        font-size: 40px;
+        font-size: 50px;
         padding-bottom: 30px;
     }
 
     #head-home_3{
         padding: 0px;
         padding-bottom: 0px;
-        font-size: 17px;
+        font-size: 20px;
     }
 
     #head-resume_1{
@@ -699,7 +699,7 @@
     }
 
     #head-skill_2{
-        font-size: 20px;
+        font-size: 25px;
         padding-left: 0px;
         padding-right: 0px;
     }
