@@ -475,6 +475,11 @@
     color: #E1306C;
 }
 
+#twitter svg:hover{
+    color: #00acee;
+}
+
+
 #head-skill_1:hover{
     color: #00ff00;
 }
@@ -885,6 +890,16 @@
             margin: 15px;
             margin-bottom: 25px;
             margin-top: 25px;
+        }
+
+        #profile-icon{
+            position: relative;
+            height: 30px;
+            width: 30px;
+            margin: 10px;
+            color: white;
+            text-align: center;
+            margin-bottom: 50px;
         }
     
         #logo_1{
