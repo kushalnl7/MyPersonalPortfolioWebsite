@@ -227,6 +227,19 @@
     animation: animate 6s linear infinite;
 }
 
+.custom-profile-icons{
+    display: flex;
+    justify-content: center;
+}
+
+#profile-icon{
+    position: relative;
+    height: 35px;
+    width: 35px;
+    margin: 15px;
+    color: white;
+    text-align: center;
+}
 
 @keyframes animate {
     0%, 10%, 100% {
@@ -441,6 +454,22 @@
     }
 }
 
+#git svg:hover{
+    color: #F1502F;
+}
+
+#linkedin svg:hover{
+    color: #0e76a8;
+}
+
+#mail svg:hover{
+    color: #BB001B;
+}
+
+#instagram svg:hover{
+    color: #E1306C;
+}
+
 #head-skill_1:hover{
     color: #00ff00;
 }
@@ -630,6 +659,12 @@
     background-color: #121111;
 }
 
+.custom-card-journey{
+    background-color: #000000;
+    max-width: 1000px;
+    float: center;
+}
+
 .custom-card-row{
     display: flex;
     /* justify-content: space-between; */
@@ -722,7 +757,17 @@
     
     #head-home_2 {
         font-size: 50px;
-        padding-bottom: 30px;
+        padding-bottom: 00px;
+    }
+
+    #profile-icon{
+        position: relative;
+        height: 35px;
+        width: 35px;
+        margin: 15px;
+        color: white;
+        text-align: center;
+        margin-bottom: 50px;
     }
 
     #head-home_3{
