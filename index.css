@@ -285,12 +285,59 @@
 #skill-img{
     height: 60px;
     width: 60px;
-    color: white;
+    color: #049fee;
     stroke-width: 0.6;
-    stroke: white;
+    stroke: #049fee;
     -webkit-animation:skill 2s linear infinite;
     -moz-animation:skill 2s linear infinite;
     animation:skill 2s linear infinite;
+}
+
+#journey-img{
+    margin-top: 7px;
+    height: 50px;
+    width: 45px;
+    color: #049fee;
+    stroke-width: 0.6;
+    stroke: #049fee;
+    -webkit-animation-name: spinner; 
+    -webkit-animation-timing-function: linear; 
+    -webkit-animation-iteration-count: infinite; 
+    -webkit-animation-duration: 2s; 
+    animation-name: spinner; 
+    animation-timing-function: linear; 
+    animation-iteration-count: infinite; 
+    animation-duration: 2s; 
+    -webkit-transform-style: preserve-3d; 
+    -moz-transform-style: preserve-3d; 
+    -ms-transform-style: preserve-3d; 
+    transform-style: preserve-3d;
+    
+    -webkit-transform-origin: center center; 
+}
+
+  /* WebKit and Opera browsers */ @-webkit-keyframes spinner { 
+    from 
+    { 
+        -webkit-transform: rotateY(0deg); 
+    } 
+    to { 
+        -webkit-transform: rotateY(-360deg); 
+    } 
+} /* all other browsers */ 
+@keyframes spinner { 
+    from { 
+        -moz-transform: rotateY(0deg); 
+        -ms-transform: rotateY(0deg); 
+        transform: rotateY(0deg); 
+    } 
+    to 
+    { 
+        -moz-transform: rotateY(-360deg); 
+        -ms-transform: rotateY(-360deg); 
+        transform: rotateY(-360deg); 
+    
+    } 
 }
 
 #project-img{
@@ -322,6 +369,14 @@
     font-family: 'Joan', serif;
 }
 
+#head-journey_1 {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    color: white;
+    font-size: 55px;
+    font-family: 'Joan', serif;
+}
 
 
 @media (max-width: 410px) {
@@ -350,6 +405,15 @@
         font-family: 'Joan', serif;
     }
 
+    #head-journey_1 {
+        padding-left: 5px;
+        padding-right: 0px;
+        text-align: center;
+        color: white;
+        font-size: 30px;
+        font-family: 'Joan', serif;
+    }
+
     #project-img{
         height: 20px;
         width: 20px;
@@ -360,10 +424,19 @@
         -moz-animation:skill 2s linear infinite;
         animation:skill 2s linear infinite;
     }
+
+    #journey-img{
+        height: 25px;
+        width: 15px;
+    }
 }
 
 @media (max-width: 305px) {
     #head-project_2{
+        display: none;
+    }
+
+    #head-journey_2{
         display: none;
     }
 }
@@ -376,7 +449,16 @@
     color: #00ff00;
 }
 
+#head-journey_1:hover{
+    color: #00ff00;
+}
+
 #skill-img:hover{
+    color: #00ff00;
+    stroke: #00ff00;
+}
+
+#journey-img:hover{
     color: #00ff00;
     stroke: #00ff00;
 }
@@ -513,45 +595,6 @@
     }
 }
 
-@media (max-width: 439px) {
-    #head-skill_1{
-        padding-left: 10px;
-        padding-right: 10px;
-        font-size: 50px;
-    }
-
-    #head-project_1{
-        padding-left: 10px;
-        padding-right: 10px;
-        font-size: 40px;
-    }
-
-    #skill-img{
-        height: 50px;
-        width: 50px;
-    }
-
-    #project-img{
-        height: 50px;
-        width: 50px;
-    }
-
-    #skill-logo{
-        height: 52px;
-        width: 52px;
-        margin: 12px;
-        margin-bottom: 25px;
-        margin-top: 25px;
-    }
-
-    #logo_1{        
-        padding-bottom: 0px;
-    }
-
-    #logo_2{
-        padding-top: 0px;
-    }
-}
 
 @media (max-width: 382px) {
     #skill-logo{
@@ -713,6 +756,15 @@
         font-family: 'Joan', serif;
     }
 
+    #head-journey_1 {
+        padding-left: 15px;
+        padding-right: 15px;
+        text-align: center;
+        color: white;
+        font-size: 40px;
+        font-family: 'Joan', serif;
+    }
+
     #project-img{
         height: 40px;
         width: 40px;
@@ -723,4 +775,64 @@
         -moz-animation:skill 2s linear infinite;
         animation:skill 2s linear infinite;
     }
+
+    #journey-img{
+        margin-top: 4px;
+        height: 40px;
+        width: 30px;
+    }
 }
+
+@media (max-width: 439px) {
+        #head-skill_1{
+            padding-left: 10px;
+            padding-right: 10px;
+            font-size: 50px;
+        }
+    
+        #head-project_1{
+            padding-left: 10px;
+            padding-right: 10px;
+            font-size: 40px;
+        }
+    
+        #head-journey_1{
+            padding-left: 5px;
+            padding-right: 0px;
+            font-size: 40px;
+        }
+    
+        #skill-img{
+            height: 50px;
+            width: 50px;
+        }
+    
+        #journey-img{
+            /* height: 50px;
+            width: 50px; */
+            margin-top: 4px;
+            height: 40px;
+            width: 30px;
+        }
+    
+        #project-img{
+            height: 50px;
+            width: 50px;
+        }
+    
+        #skill-logo{
+            height: 52px;
+            width: 52px;
+            margin: 12px;
+            margin-bottom: 25px;
+            margin-top: 25px;
+        }
+    
+        #logo_1{        
+            padding-bottom: 0px;
+        }
+    
+        #logo_2{
+            padding-top: 0px;
+        }
+    }
