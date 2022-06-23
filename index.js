@@ -40,6 +40,9 @@ function showmorejourney() {
         boxes[i].style.display = 'block';
       }
 
+    const x = document.querySelectorAll('.timeline-item');
+    x[1].style.marginBottom = '40px';
+
     document.getElementById("more-journey").style.display = 'none';
     document.getElementById("less-journey").style.display = 'block';
 }
@@ -49,6 +52,9 @@ function showlessjourney() {
     for (let i = 2; i < boxes.length; i++) {
         boxes[i].style.display = 'none';
       }
+
+    const x = document.querySelectorAll('.timeline-item');
+    x[1].style.marginBottom = '0px';
 
     document.getElementById("less-journey").style.display = 'none';
     document.getElementById("more-journey").style.display = 'block';

@@ -1074,6 +1074,7 @@
     #more-journey{
         display: block;
         text-align: center;
+        margin-top: 40px;
     }    
     
     #more-journey:hover{
@@ -1108,6 +1109,10 @@
 
     .custom-col-journey:nth-child(n+3){
         display: none;
+    }
+
+    .timeline-item:nth-child(2){
+        margin-bottom: 0;
     }
 
     .custom-project{
