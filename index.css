@@ -925,9 +925,9 @@
 
 
     .timeline-section{
-        background-color: #24292d;
-        min-height: 100vh;
-        padding: 100px 15px;
+        /* background-color: #24292d; */
+        /* min-height: 100vh; */
+        padding: 15px 15px;
     }
     .timeline-items{
         max-width: 1000px;
@@ -941,7 +941,7 @@
         position: absolute;
         width: 2px;
         height: 100%;
-        background-color: #2f363e;
+        background-color: gray;
         left: calc(50% - 1px);
     }
     .timeline-item{
@@ -962,7 +962,7 @@
     .timeline-dot{
         height: 16px;
         width: 16px;
-        background-color: #eaa023;
+        background-color: #00ff00;
         position: absolute;
         left: calc(50% - 8px);
         border-radius: 50%;
@@ -970,16 +970,16 @@
     }
     .timeline-date{
         font-size: 18px;
-        color: #eaa023;
+        color: #00ff00;
         margin:6px 0 15px;
     }
     .timeline-content{
-        background-color: #2f363e;
+        background-color: #000000;
         padding: 30px;
         border-radius: 5px;
     }
     .timeline-content h3{
-        font-size: 20px;
+        font-size: 30px;
         color: #ffffff;
         margin:0 0 10px;
         text-transform: capitalize;
@@ -987,7 +987,7 @@
     }
     .timeline-content p{
         color: #c8c8c8;
-        font-size: 16px;
+        font-size: 20px;
         font-weight: 300;
         line-height: 22px;
     }
