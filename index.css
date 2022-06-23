@@ -1019,6 +1019,7 @@
 #less-projects{
         display: none;
         font-style: italic;
+        margin-bottom: 40px;
     }
 
 @media (max-width: 763px) {
@@ -1049,6 +1050,10 @@
     .custom-col-2{
         display: block;
     }
+
+    .custom-project{
+    padding: 30px 10px 0px 10px;
+}
 }
 
 #project-start{
