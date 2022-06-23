@@ -300,6 +300,19 @@
     animation-fill-mode: forwards; */
 }
 
+#journey{
+    padding: 50px;
+    padding-bottom: 20px;
+    display: flex;
+    float: center;
+    /* text-align: center; */
+    justify-content: center;
+    position: relative;
+    /* animation-name: resume;
+    animation-duration: 2s;  
+    animation-fill-mode: forwards; */
+}
+
 #skill-img{
     height: 60px;
     width: 60px;
@@ -404,6 +417,20 @@
     #project{
         padding: 0px;
         padding-bottom: 20px;
+        display: flex;
+        float: center;
+        /* text-align: center; */
+        justify-content: center;
+        position: relative;
+        /* animation-name: resume;
+        animation-duration: 2s;  
+        animation-fill-mode: forwards; */
+    }
+
+    #journey{
+        padding: 0px;
+        padding-bottom: 20px;
+        padding-top: 40px;
         display: flex;
         float: center;
         /* text-align: center; */
