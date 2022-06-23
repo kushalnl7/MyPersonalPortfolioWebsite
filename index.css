@@ -930,7 +930,7 @@
         padding: 15px 15px;
     }
     .timeline-items{
-        max-width: 1000px;
+        max-width: 1200px;
         margin:auto;
         display: flex;
         flex-wrap: wrap;
@@ -969,9 +969,9 @@
         top:10px;
     }
     .timeline-date{
-        font-size: 18px;
+        font-size: 30px;
         color: #00ff00;
-        margin:6px 0 15px;
+        margin: -5px 0 15px;
     }
     .timeline-content{
         background-color: #000000;
