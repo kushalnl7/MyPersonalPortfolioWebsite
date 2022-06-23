@@ -1013,10 +1013,12 @@
 
 #more-projects{
         display: none;
+        font-style: italic;
     }
 
 #less-projects{
         display: none;
+        font-style: italic;
     }
 
 @media (max-width: 763px) {
