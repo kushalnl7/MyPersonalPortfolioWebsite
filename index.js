@@ -8,3 +8,25 @@ $(document).ready(function () {
     });
 });
 
+function showmoreprojects() {
+    // let x = document.getElementsByClassName("col");
+    const boxes = document.querySelectorAll('.custom-col');
+   
+
+    for (let i = 2; i < boxes.length; i++) {
+        boxes[i].style.display = 'block';
+      }
+
+    document.getElementById("more-projects").style.display = 'none';
+    document.getElementById("less-projects").style.display = 'block';
+}
+
+function showlessprojects() {
+    const boxes = document.querySelectorAll('.custom-col');
+    for (let i = 2; i < boxes.length; i++) {
+        boxes[i].style.display = 'none';
+      }
+
+    document.getElementById("less-projects").style.display = 'none';
+    document.getElementById("more-projects").style.display = 'block';
+}

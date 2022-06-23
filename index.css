@@ -1009,3 +1009,43 @@
             left:0;
         }
     }
+
+
+#more-projects{
+        display: none;
+    }
+
+#less-projects{
+        display: none;
+    }
+
+@media (max-width: 763px) {
+    #more-projects{
+        display: block;
+        text-align: center;
+    }    
+    
+    #more-projects:hover{
+        color: #00ff00;
+        cursor: pointer;
+    }
+
+    #less-projects{
+        display: none;
+        text-align: center;
+    }    
+    
+    #less-projects:hover{
+        color: #00ff00;
+        cursor: pointer;
+    }
+
+    .custom-col:nth-child(n+3){
+        display: none;
+    }
+
+    .custom-col-2{
+        display: block;
+    }
+}
+
