@@ -1051,3 +1051,8 @@
     }
 }
 
+#project-start{
+    position: relative; 
+    top: -120px; 
+    visibility: hidden;
+}
