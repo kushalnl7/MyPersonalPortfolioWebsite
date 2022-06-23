@@ -1043,11 +1043,22 @@
         font-style: italic;
     }
 
+#more-journey{
+    display: none;
+    font-style: italic;
+}
+
 #less-projects{
         display: none;
         font-style: italic;
         margin-bottom: 35px;
     }
+
+#less-journey{
+    display: none;
+    font-style: italic;
+    margin-bottom: 35px;
+}
 
 @media (max-width: 763px) {
     #more-projects{
@@ -1056,6 +1067,16 @@
     }    
     
     #more-projects:hover{
+        color: #00ff00;
+        cursor: pointer;
+    }
+
+    #more-journey{
+        display: block;
+        text-align: center;
+    }    
+    
+    #more-journey:hover{
         color: #00ff00;
         cursor: pointer;
     }
@@ -1070,12 +1091,23 @@
         cursor: pointer;
     }
 
+    #less-journey{
+        display: none;
+        text-align: center;
+        margin-top: 40px;
+    }    
+    
+    #less-journey:hover{
+        color: #00ff00;
+        cursor: pointer;
+    }
+
     .custom-col:nth-child(n+3){
         display: none;
     }
 
-    .custom-col-2{
-        display: block;
+    .custom-col-journey:nth-child(n+3){
+        display: none;
     }
 
     .custom-project{
@@ -1084,6 +1116,12 @@
 }
 
 #project-start{
+    position: relative; 
+    top: -120px; 
+    visibility: hidden;
+}
+
+#journey-start{
     position: relative; 
     top: -120px; 
     visibility: hidden;
