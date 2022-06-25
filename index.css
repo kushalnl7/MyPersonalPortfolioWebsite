@@ -1041,23 +1041,27 @@
 #more-projects{
         display: none;
         font-style: italic;
+        color: gray;
     }
 
 #more-journey{
     display: none;
     font-style: italic;
+    color: gray;
 }
 
 #less-projects{
         display: none;
         font-style: italic;
         margin-bottom: 35px;
+        color: gray;
     }
 
 #less-journey{
     display: none;
     font-style: italic;
     margin-bottom: 35px;
+    color: gray;
 }
 
 @media (max-width: 763px) {
@@ -1130,4 +1134,9 @@
     position: relative; 
     top: -120px; 
     visibility: hidden;
+}
+
+
+.form-control:valid {
+  background-color:  #121111!important;
 }
