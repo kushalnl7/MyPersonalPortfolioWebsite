@@ -413,7 +413,10 @@
 
 @media (max-width: 410px) {
 
-    
+    #profile-img{
+        height: 375px !important;
+        width: 300px !important;
+    }
 
     #project{
         padding: 0px;
