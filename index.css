@@ -177,7 +177,7 @@
     color: white;
     padding: 25px;
     font-size: 35px;
-    /* text-align: justify; */
+    margin-bottom: 0px;
     font-style: italic;
     font-family: 'Gentium Plus', serif;
 }
