@@ -803,7 +803,7 @@
     }
     
     #head-foot_1 {
-        font-size: 40px;
+        font-size: 33px;
     }
 
     #head-home_2 {
@@ -812,8 +812,10 @@
     }
 
     #head-foot_2 {
-        font-size: 25px;
-        padding-bottom: 00px;
+        font-size: 23px;
+        padding-left: 10px;
+        padding-right: 10px;
+        
     }
 
     #profile-icon{
