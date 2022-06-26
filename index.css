@@ -154,6 +154,7 @@
     color: white;
     font-size: 50px;
     font-family: 'Joan', serif;
+    margin-bottom: 20px;
 }
 
 #head-home_2 {
@@ -168,6 +169,18 @@
     color: #00ff00;
     font-size: 30px;
     font-family: 'Joan', serif;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#head-foot_3 {
+    /* padding-top: 50px; */
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: 'Joan', serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 #head-home_3 {
@@ -642,6 +655,10 @@
     #logo_2{
         padding-top: 0px;
     }
+
+    .custom-profile-icons{
+        margin-bottom: 40px;
+    }
 }
 
 @media (max-width: 765px) {
@@ -815,7 +832,19 @@
         font-size: 23px;
         padding-left: 10px;
         padding-right: 10px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    #head-foot_2 {
+        font-size: 23px;
+        padding-left: 10px;
+        padding-right: 10px;
         
+    }
+
+    .custom-profile-icons{
+        margin-bottom: 0px;
     }
 
     #profile-icon{
@@ -1067,6 +1096,11 @@
         }
     }
 
+@media(max-width: 767px){
+    #input-name{
+        margin-bottom: 20px;
+    }
+}
 
 #more-projects{
         display: none;
@@ -1179,10 +1213,19 @@
 #footer{
     text-align: center;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 #footer-line{
     margin-top: 40px;
     margin-bottom: 20px;
+    color: #00ff00;
+}
+
+#mail2{
+    text-decoration: none;
+}
+
+#head-foot_3:hover{
     color: #00ff00;
 }
