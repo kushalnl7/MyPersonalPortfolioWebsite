@@ -794,6 +794,7 @@
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 40px;
+    margin-bottom: 20px;
 }
 
 #domain-list{
@@ -801,8 +802,8 @@
     color: white;
     padding: 5px;
     padding-inline: 20px;
-    border: solid 1px;
-    border-color: #00ff00;
+    border: solid 2px;
+    border-color: #049fee;
     border-radius: 5px;
 }
 
@@ -1075,7 +1076,7 @@
         position: absolute;
         width: 2px;
         height: 100%;
-        background-color: gray;
+        background-color: white;
         left: calc(50% - 1px);
     }
     .timeline-item{
@@ -1108,6 +1109,8 @@
         margin: -5px 0 15px;
     }
     .timeline-content{
+        border: 2px solid;
+        border-color: #049fee;
         background-color: #000000;
         padding: 30px;
         border-radius: 5px;
