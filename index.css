@@ -779,6 +779,7 @@
     color: white;
     padding-top: 20px;
     padding-bottom: 20px;
+    font-size: 30px;
 }
 
 #head-card:hover{
@@ -833,16 +834,6 @@
     .custom-project{
         padding: 30px 10px 30px 10px;
     }
-}
-
-#projects{
-    /* position: absolute; */
-    /* padding-bottom: 70px; */
-    /* margin-bottom: 100px; */
-    /* visibility: hidden; */
-    /* padding-top: 200px; */
-    /* margin-top: 100px; */
-    /* display: none; */
 }
 
 
@@ -967,6 +958,20 @@
     
     #contact{
         scroll-margin-top: 80px;
+    }
+
+    #head-card{
+        color: white;
+        font-size: 25px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    #body-card{
+        color: #D7D7D7;
+        margin-top: 30px;
+        font-size: 20px;
+        text-align: justify;
     }
 }
 
