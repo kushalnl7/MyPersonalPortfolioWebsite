@@ -744,6 +744,7 @@
     /* justify-content: space-between; */
 }
 
+
 #folder-icon{
     position: relative;
     height: 35px;
@@ -780,9 +781,14 @@
     padding-bottom: 20px;
 }
 
+#head-card:hover{
+    color: #00ff00;
+}
+
 #body-card{
+    color: #D7D7D7;
     margin-top: 30px;
-    color: #8A8A8A;
+    text-align: justify;
 }
 
 .project-domain{
@@ -1107,6 +1113,7 @@
         font-size: 30px;
         color: #00ff00;
         margin: -5px 0 15px;
+        font-style: italic;
     }
     .timeline-content{
         border: 2px solid;
@@ -1114,6 +1121,7 @@
         background-color: #000000;
         padding: 30px;
         border-radius: 5px;
+        text-align: left;
     }
     .timeline-content h3{
         font-size: 30px;
@@ -1122,11 +1130,21 @@
         text-transform: capitalize;
         font-weight: 500;
     }
+
+    .timeline-content h5{
+        color: #049fee;
+        margin:0 0 10px;
+        text-transform: capitalize;
+        font-weight: 500;
+    }
+
     .timeline-content p{
-        color: #c8c8c8;
+        color: #D7D7D7;
         font-size: 20px;
         font-weight: 300;
         line-height: 22px;
+        text-align: justify;
+
     }
     
     /* responsive */
