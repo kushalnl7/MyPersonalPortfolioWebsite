@@ -75,8 +75,8 @@
 }
 
 .navbar-toggler .navbar-toggler-icon {
-    width: 40px !important;
-    height: 40px !important;
+    width: 30px !important;
+    height: 30px !important;
 }
 
 .custom-home {
@@ -318,7 +318,8 @@
 
 #project{
     padding: 50px;
-    padding-bottom: 20px;
+    padding-top: 120px;
+    padding-bottom: 0px;
     display: flex;
     float: center;
     /* text-align: center; */
@@ -598,7 +599,7 @@
     float: center; */
     text-align: center;
     position: relative;
-    padding-bottom: 70px;
+    /* padding-bottom: 70px; */
     padding-top: 20px;
     /* animation-name: logo_2;
     animation-duration: 4s;  
@@ -812,6 +813,16 @@
     }
 }
 
+#projects{
+    /* position: absolute; */
+    /* padding-bottom: 70px; */
+    /* margin-bottom: 100px; */
+    /* visibility: hidden; */
+    /* padding-top: 200px; */
+    /* margin-top: 100px; */
+    /* display: none; */
+}
+
 
 @media (max-width: 533px) {
 
@@ -886,6 +897,16 @@
         color: white;
         font-size: 40px;
         font-family: 'Joan', serif;
+    }
+
+    #projects{
+        position: relative;
+        /* padding-bottom: 70px; */
+        /* margin-bottom: 70px; */
+        visibility:hidden;
+        /* padding-top: 200px; */
+        /* margin-top: 100px; */
+        /* display: none; */
     }
 
     #head-journey_1 {
@@ -1229,3 +1250,4 @@
 #head-foot_3:hover{
     color: #00ff00;
 }
+
