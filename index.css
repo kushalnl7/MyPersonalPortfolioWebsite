@@ -1169,6 +1169,18 @@
         .timeline-dot{
             left:0;
         }
+        .timeline-content h3{
+            font-size: 24px;
+        }
+        .timeline-content h5{
+            font-size: 22px;
+        }
+        .timeline-content p{
+            font-size: 18px;
+        }
+        .timeline-date{
+            font-size: 24px;
+        }
     }
 
 @media(max-width: 767px){
