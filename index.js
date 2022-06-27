@@ -94,3 +94,7 @@ function Submit(){
     sendEmail();
 
 }
+
+window.addEventListener("#project", function () {
+    window.scrollTo(window.scrollX, window.scrollY - 500);
+});

@@ -317,8 +317,9 @@
 }
 
 #project{
+    scroll-margin-top: 100px;
     padding: 50px;
-    padding-top: 120px;
+    padding-top: 50px;
     padding-bottom: 0px;
     display: flex;
     float: center;
@@ -449,6 +450,7 @@
 
     #project{
         padding: 0px;
+        padding-top: 60px;
         padding-bottom: 20px;
         display: flex;
         float: center;
