@@ -798,6 +798,12 @@
 
 #domain-list{
     margin: 5px;
+    color: white;
+    padding: 5px;
+    padding-inline: 20px;
+    border: solid 1px;
+    border-color: #00ff00;
+    border-radius: 5px;
 }
 
 .custom-project{
