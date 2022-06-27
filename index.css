@@ -1132,6 +1132,7 @@
     }
 
     .timeline-content h5{
+        font-size: 25px;
         color: #049fee;
         margin:0 0 10px;
         text-transform: capitalize;
