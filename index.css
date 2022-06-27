@@ -319,7 +319,7 @@
 #project{
     scroll-margin-top: 100px;
     padding: 50px;
-    padding-top: 50px;
+    padding-top: 60px;
     padding-bottom: 0px;
     display: flex;
     float: center;
@@ -347,6 +347,7 @@
 
 #contact{
     scroll-margin-top: 100px;
+    padding-top: 80px;
 }
 
 
@@ -941,6 +942,18 @@
         margin-top: 4px;
         height: 40px;
         width: 30px;
+    }
+
+    #project{
+        scroll-margin-top: 80px;
+    }
+    
+    #journey{
+        scroll-margin-top: 80px;
+    }
+    
+    #contact{
+        scroll-margin-top: 80px;
     }
 }
 
