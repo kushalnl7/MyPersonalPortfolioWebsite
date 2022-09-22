@@ -1331,3 +1331,28 @@ input:-webkit-autofill:active {
 input:-webkit-autofill{
     -webkit-text-fill-color: white !important;
 }
+
+/* input[required] {
+    background-color: #121111;
+  } */
+
+  input:required {
+    background-color: #121111;
+  }
+  
+
+  input:required:focus {
+    background-color: #121111;
+    /* border-width: 3px; */
+  }
+  
+  textarea:required {
+    background-color: #121111;
+  }
+  
+
+  textarea:required:focus {
+    background-color: #121111;
+    /* border-width: 3px; */
+  }
+  

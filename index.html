@@ -576,11 +576,11 @@
                         <input type="hidden" name="_next" value="http://127.0.0.1:5500/index.html">
                         <div id="input-name" class="form-group col-md-6" style="color: #121111; ">
                             <input name="name" type="text" class="form-control" id="inputName" placeholder="Full Name"
-                                style="color: white;">
+                                style="color: white;" required>
                         </div>
                         <div class="form-group col-md-6" style="color: #121111;">
-                            <input name="email" type="text" class="form-control" id="inputEmail4"
-                                placeholder="Your Email" style="color: white;">
+                            <input name="email" type="text" pattern="[a-zA-Z0-9.-_]{1,}@[a-zA-Z.-]{2,}[.]{1}[a-zA-Z]{2,}" class="form-control" id="inputEmail4"
+                                placeholder="Your Email" style="color: white;" required>
                         </div>
 
 
@@ -589,12 +589,12 @@
 
                     <div class="form-group" style="margin-top: 20px; margin-bottom: 20px;">
                         <input name="_subject" type="text" class="form-control" id="inputSubject" placeholder="Subject"
-                            style="color: white;">
+                            style="color: white;" required>
                     </div>
 
                     <div class="form-group" style="margin-bottom: 20px;">
                         <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="4"
-                            placeholder="Your message/feedback" style="color: white; resize: none;"></textarea>
+                            placeholder="Your message/feedback" style="color: white; resize: none;" required></textarea>
                     </div>
 
                     <input type="hidden" name="_autoresponse"
