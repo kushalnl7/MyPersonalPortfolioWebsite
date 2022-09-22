@@ -1233,7 +1233,7 @@
     #more-journey{
         display: block;
         text-align: center;
-        margin-top: 40px;
+        margin-top: 20px;
     }    
     
     #more-journey:hover{
@@ -1254,7 +1254,8 @@
     #less-journey{
         display: none;
         text-align: center;
-        margin-top: 40px;
+        margin-top: 20px;
+        margin-bottom: 10px;
     }    
     
     #less-journey:hover{
