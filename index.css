@@ -1133,7 +1133,7 @@
         text-align: left;
     }
     .timeline-content h3{
-        font-size: 25px;
+        font-size: 30px;
         color: #ffffff;
         margin:0 0 10px;
         text-transform: capitalize;
@@ -1141,7 +1141,7 @@
     }
 
     .timeline-content h5{
-        font-size: 21px;
+        font-size: 25px;
         color: #049fee;
         margin:0 0 10px;
         text-transform: capitalize;
@@ -1150,7 +1150,7 @@
 
     .timeline-content p{
         color: #D7D7D7;
-        font-size: 17px;
+        font-size: 20px;
         font-weight: 300;
         line-height: 22px;
         text-align: justify;
@@ -1174,16 +1174,16 @@
             left:0;
         }
         .timeline-content h3{
-            font-size: 24px;
+            font-size: 20px;
         }
         .timeline-content h5{
-            font-size: 22px;
-        }
-        .timeline-content p{
             font-size: 18px;
         }
+        .timeline-content p{
+            font-size: 17px;
+        }
         .timeline-date{
-            font-size: 24px;
+            font-size: 22px;
         }
     }
 
