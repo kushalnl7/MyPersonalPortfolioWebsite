@@ -800,7 +800,7 @@
     font-size: 18px;
     margin-left: 10px;
     margin-right: 10px;
-    margin-top: 40px;
+    margin-top: 10px;
     margin-bottom: 20px;
 }
 
@@ -969,7 +969,7 @@
 
     #body-card{
         color: #D7D7D7;
-        margin-top: 30px;
+        margin-top: 1px;
         font-size: 16px;
         text-align: justify;
     }
@@ -1133,7 +1133,7 @@
         text-align: left;
     }
     .timeline-content h3{
-        font-size: 30px;
+        font-size: 25px;
         color: #ffffff;
         margin:0 0 10px;
         text-transform: capitalize;
@@ -1141,7 +1141,7 @@
     }
 
     .timeline-content h5{
-        font-size: 25px;
+        font-size: 21px;
         color: #049fee;
         margin:0 0 10px;
         text-transform: capitalize;
@@ -1150,7 +1150,7 @@
 
     .timeline-content p{
         color: #D7D7D7;
-        font-size: 20px;
+        font-size: 16px;
         font-weight: 300;
         line-height: 22px;
         text-align: justify;
