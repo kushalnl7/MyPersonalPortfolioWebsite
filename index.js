@@ -8,6 +8,8 @@ $(document).ready(function () {
     });
 });
 
+
+
 function showmoreprojects() {
     // let x = document.getElementsByClassName("col");
     const boxes = document.querySelectorAll('.custom-col');
