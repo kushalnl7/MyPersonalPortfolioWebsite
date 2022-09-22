@@ -31,6 +31,7 @@ function showlessprojects() {
 
     document.getElementById("less-projects").style.display = 'none';
     document.getElementById("more-projects").style.display = 'block';
+    document.getElementById('project').scrollIntoView();
 }
 
 function showmorejourney() {
@@ -60,6 +61,7 @@ function showlessjourney() {
 
     document.getElementById("less-journey").style.display = 'none';
     document.getElementById("more-journey").style.display = 'block';
+    document.getElementById('journey').scrollIntoView();
 }
 
 function sendEmail() {
