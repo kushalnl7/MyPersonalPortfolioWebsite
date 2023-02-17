@@ -310,7 +310,7 @@
 }
 
 #project{
-    scroll-margin-top: 100px;
+    scroll-margin-top: 80px;
     padding: 30px;
     padding-bottom: 0px;
     display: flex;
@@ -320,7 +320,7 @@
 }
 
 #journey{
-    scroll-margin-top: 100px;
+    scroll-margin-top: 80px;
     padding: 50px;
     padding-bottom: 20px;
     display: flex;
