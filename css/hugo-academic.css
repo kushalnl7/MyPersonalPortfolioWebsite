@@ -217,7 +217,7 @@ blockquote p:last-child {
 }
 
 .home-section:first-of-type {
-  padding-top: 50px;
+  padding-top: 10px;
 }
 
 .home-section:nth-of-type(even) {
